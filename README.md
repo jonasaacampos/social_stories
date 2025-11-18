@@ -1,4 +1,4 @@
-# Social Stories Simples
+# Social Stories
 
 Repositório de histórias sociais interativas construídas em HTML + Tailwind CDN, pensadas para apoiar crianças em rotinas diárias usando pictogramas do ARASAAC.
 
