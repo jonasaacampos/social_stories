@@ -6,20 +6,20 @@
     <title>História Social: Rotina da Manhã</title>
     <meta name="description" content="História social interativa para ajudar crianças a seguirem a rotina da manhã com apoio visual de pictogramas ARASAAC.">
     <meta name="theme-color" content="#60a5fa">
-    <link rel="canonical" href="https://exemplo.com/pronto-pra-escola.html">
+    <link rel="canonical" href="https://jonasaacampos.github.io/social_stories/pronto-pra-escola.html">
 
     <!-- Metadados para redes sociais -->
     <meta property="og:title" content="História Social: Pronto pra Escola">
     <meta property="og:description" content="Sequência guiada com pictogramas ARASAAC para apoiar a rotina matinal rumo à escola.">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://exemplo.com/pronto-pra-escola.html">
-    <meta property="og:image" content="https://exemplo.com/assets/img/arasaac/colegas-39421.png">
+    <meta property="og:url" content="https://jonasaacampos.github.io/social_stories/pronto-pra-escola.html">
+    <meta property="og:image" content="https://jonasaacampos.github.io/social_stories/assets/img/arasaac/colegas-39421.png">
     <meta property="og:locale" content="pt_BR">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="História Social: Pronto pra Escola">
     <meta name="twitter:description" content="Use pictogramas para preparar a criança para a rotina da manhã e a chegada à escola.">
-    <meta name="twitter:image" content="https://exemplo.com/assets/img/arasaac/colegas-39421.png">
+    <meta name="twitter:image" content="https://jonasaacampos.github.io/social_stories/assets/img/arasaac/colegas-39421.png">
     
     <!-- Tailwind CSS para o design (versão CDN) -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -105,72 +105,77 @@
 
     <script>
         // --- Dados da História ---
+        // Base path para GitHub Pages
+        const basePath = window.location.hostname === 'jonasaacampos.github.io' 
+            ? '/social_stories/' 
+            : './';
+        
         const storyData = [
             {
                 id: 1,
                 text: "De manhã, o despertador toca ou o Gustavo vem me chamar. O sol já acordou.",
                 // HTML string para os ícones
-                iconsHtml: `<img src="assets/img/arasaac/despertador-5560.png" alt="Despertador" class="pictogram">
-                            <img src="assets/img/arasaac/sol-7252.png" alt="Sol" class="pictogram">`,
+                iconsHtml: `<img src="${basePath}assets/img/arasaac/despertador-5560.png" alt="Despertador" class="pictogram">
+                            <img src="${basePath}assets/img/arasaac/sol-7252.png" alt="Sol" class="pictogram">`,
                 bgColor: "bg-yellow-50"
             },
             {
                 id: 2,
                 text: "Às vezes, minha cama está quentinha e eu sinto muito sono. Eu penso: \"Não quero levantar, quero ficar aqui\".",
-                iconsHtml: `<img src="assets/img/arasaac/cama-25900.png" alt="Cama" class="pictogram">`,
+                iconsHtml: `<img src="${basePath}assets/img/arasaac/cama-25900.png" alt="Cama" class="pictogram">`,
                 bgColor: "bg-blue-50"
             },
             {
                 id: 3,
                 text: "Sentir sono é normal. Mas ficar na cama o dia todo não é uma opção. O papai me acorda porque gosta de mim e precisa me ajudar a cumprir o horário.",
-                iconsHtml: `<img src="assets/img/arasaac/pai-2497.png" alt="Pai" class="pictogram">`,
+                iconsHtml: `<img src="${basePath}assets/img/arasaac/pai-2497.png" alt="Pai" class="pictogram">`,
                 bgColor: "bg-green-50"
             },
             {
                 id: 4,
                 text: "Se eu gritar ou me recusar a levantar, todos ficam tristes e eu começo o dia raivoso.",
-                iconsHtml: `<img src="assets/img/arasaac/zangado-35539.png" alt="Menino zangado" class="pictogram">`,
+                iconsHtml: `<img src="${basePath}assets/img/arasaac/zangado-35539.png" alt="Menino zangado" class="pictogram">`,
                 bgColor: "bg-red-50"
             },
             {
                 id: 5,
                 text: "Em vez disso, eu posso respirar fundo, espreguiçar e dizer: \"Estou cansado, mas vou levantar. Vamos passar na padaria para comprar meu lanche\".",
-                iconsHtml: `<img src="assets/img/arasaac/respirar-34377.png" alt="Respirar fundo" class="pictogram">
-                            <img src="assets/img/arasaac/padaria-6576.png" alt="Padaria" class="pictogram">`,
+                iconsHtml: `<img src="${basePath}assets/img/arasaac/respirar-34377.png" alt="Respirar fundo" class="pictogram">
+                            <img src="${basePath}assets/img/arasaac/padaria-6576.png" alt="Padaria" class="pictogram">`,
                 bgColor: "bg-orange-50"
             },
             {
                 id: 6,
                 text: "Depois de me arrumar, eu vou para a escola. Às vezes, eu queria ficar em casa e isso me deixa bravo.",
-                iconsHtml: `<img src="assets/img/arasaac/escola-32446.png" alt="Escola" class="pictogram">
-                            <img src="assets/img/arasaac/casa-6964.png" alt="Casa" class="pictogram">`,
+                iconsHtml: `<img src="${basePath}assets/img/arasaac/escola-32446.png" alt="Escola" class="pictogram">
+                            <img src="${basePath}assets/img/arasaac/casa-6964.png" alt="Casa" class="pictogram">`,
                 bgColor: "bg-gray-50"
             },
             {
                 id: 7,
                 text: "Quando chego na escola e sinto raiva, eu não preciso bater, gritar, rasgar a roupa ou passar cocô. \nIsso machuca os outros e não me leva para casa.",
-                iconsHtml: `<img src="assets/img/arasaac/proibido-32366.png" alt="Sinal de proibido" class="pictogram">
-                            <img src="assets/img/arasaac/bater-37373.png" alt="Bater" class="pictogram">`,
+                iconsHtml: `<img src="${basePath}assets/img/arasaac/proibido-32366.png" alt="Sinal de proibido" class="pictogram">
+                            <img src="${basePath}assets/img/arasaac/bater-37373.png" alt="Bater" class="pictogram">`,
                 bgColor: "bg-red-50"
             },
             {
                 id: 8,
                 text: "Se eu sentir muita raiva na escola, eu posso pedir ajuda ao professor ou pedir para deitar no colchão.",
-                iconsHtml: `<img src="assets/img/arasaac/ajuda-12252.png" alt="Pedir ajuda" class="pictogram">
-                            <img src="assets/img/arasaac/colchao-8078.png" alt="Colchão" class="pictogram">`,
+                iconsHtml: `<img src="${basePath}assets/img/arasaac/ajuda-12252.png" alt="Pedir ajuda" class="pictogram">
+                            <img src="${basePath}assets/img/arasaac/colchao-8078.png" alt="Colchão" class="pictogram">`,
                 bgColor: "bg-purple-50"
             },
             {
                 id: 9,
                 text: "A escola é o lugar onde aprendo e vejo colegas. Eu sou capaz de ficar na escola e ficar tranquilo.",
-                iconsHtml: `<img src="assets/img/arasaac/colegas-39421.png" alt="Colegas" class="pictogram">`,
+                iconsHtml: `<img src="${basePath}assets/img/arasaac/colegas-39421.png" alt="Colegas" class="pictogram">`,
                 bgColor: "bg-blue-50"
             },
             {
                 id: 10,
                 text: "Quando a aula acabar, eu volto para casa. Eu consigo vencer o sono e ter um bom dia!",
-                iconsHtml: `<img src="assets/img/arasaac/casa-6964.png" alt="Casa" class="pictogram">
-                            <img src="assets/img/arasaac/coracao-4613.png" alt="Coração" class="pictogram">`,
+                iconsHtml: `<img src="${basePath}assets/img/arasaac/casa-6964.png" alt="Casa" class="pictogram">
+                            <img src="${basePath}assets/img/arasaac/coracao-4613.png" alt="Coração" class="pictogram">`,
                 bgColor: "bg-green-100"
             }
         ];
