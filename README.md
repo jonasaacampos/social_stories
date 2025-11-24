@@ -7,6 +7,7 @@ Repositório de histórias sociais interativas construídas em HTML + Tailwind C
 | História | Descrição | Arquivo |
 | --- | --- | --- |
 | Pronto pra Escola | Sequência guiada para ajudar a acordar, se preparar e chegar à escola com apoio visual e estratégias regulatórias. | [`pronto-pra-escola.html`](./pronto-pra-escola.html) |
+| Voando no avião grande | História social interativa para ajudar crianças a entenderem a experiência de viajar de avião. | [`viagem-de-aviao.html`](./viagem-de-aviao.html) |
 
 > Adicione novas histórias duplicando o modelo acima e mantendo os arquivos HTML na raiz do projeto ou em subpastas organizadas por tema.
 
@@ -23,7 +24,15 @@ Repositório de histórias sociais interativas construídas em HTML + Tailwind C
     └── download_arasaac.ps1 # Script para baixar os pictos usados
 ```
 
-## 🚀 Como utilizar
+## Como utilizar (para pais e educadores)
+
+Abra o site no canto superior desta tela, ou [Clique aqui](https://jonasaacampos.github.io/social_stories/) e escolha a sua história.
+
+1.  **Leia Antes:** Apresente estas histórias alguns dias antes da viagem acontecer .
+2.  **Personalize:** Se a criança tem medo de algo específico (ex: barulho da descarga do avião), adicione uma frase sobre isso na história .
+3.  **Reforce:** Quando a criança se comportar bem no avião ou restaurante, elogie: "Muito bem! Você esperou sentado igual na nossa história!" .
+
+## 🚀 Como utilizar (para devs)
 
 1. Abra o arquivo HTML desejado diretamente no navegador ou hospede-o em qualquer serviço estático.
 2. Para editar, utilize um editor que suporte Tailwind CDN (VS Code, por exemplo) e personalize o conteúdo em `storyData`.
