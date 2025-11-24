@@ -8,6 +8,7 @@ Repositório de histórias sociais interativas construídas em HTML + Tailwind C
 | --- | --- | --- |
 | Pronto pra Escola | Sequência guiada para ajudar a acordar, se preparar e chegar à escola com apoio visual e estratégias regulatórias. | [`pronto-pra-escola.html`](./pronto-pra-escola.html) |
 | Voando no avião grande | História social interativa para ajudar crianças a entenderem a experiência de viajar de avião. | [`viagem-de-aviao.html`](./viagem-de-aviao.html) |
+| Brincando na praia | História social interativa para ajudar crianças a entenderem a experiência de brincar na praia. | [`brincando-na-praia.html`](./brincando-na-praia.html) |
 
 > Adicione novas histórias duplicando o modelo acima e mantendo os arquivos HTML na raiz do projeto ou em subpastas organizadas por tema.
 
